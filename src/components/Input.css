@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.inputbox {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.inputbox__field {
+    padding: 10%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inputbox__field>h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.inputbox__field>img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.inputbox__field>form>button {
+    margin-top: 20px;
+    text-transform: inherit !important;
+}

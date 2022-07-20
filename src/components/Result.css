@@ -1,0 +1,31 @@
+.result {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.result__box {
+    padding: 0 10%;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.result__box>h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.result__box>h3 {
+    font-weight: 400;
+}
+
+.result__box>button {
+    margin: 20px 0;
+}
